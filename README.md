@@ -1,7 +1,7 @@
 # Virtual-Assistant-Vietvias
-Trợ lý ảo thông minh Vietvias (Vietnamese virtual assistant)
+## Trợ lý ảo thông minh **Vietvias** (Vietnamese virtual assistant)
 
-DỰ ÁN TRỢ LÝ ẢO TIẾNG VIỆT
+### DỰ ÁN TRỢ LÝ ẢO TIẾNG VIỆT
 
 **Các chức năng cơ bản:**
 
