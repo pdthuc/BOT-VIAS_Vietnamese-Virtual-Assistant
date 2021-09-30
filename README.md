@@ -1,5 +1,5 @@
-# Virtual Assistant Vietvias
-## Trợ lý ảo thông minh **Vietvias** (Vietnamese virtual assistant)
+# Virtual Assistant: VIAS
+## Trợ lý ảo thông minh **VIAS** 
 
 ### DỰ ÁN TRỢ LÝ ẢO TIẾNG VIỆT
 
