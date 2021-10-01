@@ -128,3 +128,4 @@
 
 # Tài liệu tham khảo
 - Codelearn.io >> https://codelearn.io/sharing/lap-trinh-tro-ly-ao-tieng-viet-python
+- Chat Bot With PyTorch - NLP Beginner Tutorial >> https://www.youtube.com/playlist?list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg
