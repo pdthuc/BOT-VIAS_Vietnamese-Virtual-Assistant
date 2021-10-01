@@ -126,3 +126,5 @@
 - `get_text()` để lấy thông tin yêu cầu người dùng, lưu vào **text**, nếu **text** nhận 0 tức máy không nghe được, máy sẽ break
 - Nếu **text** nhận được giá trị, sẽ thực hiện các câu lệnh, khi nghe thấy "dừng lại" hoặc "tạm biệt" thì cũng sẽ dừng.
 
+# Tài liệu tham khảo
+- Codelearn.io >> https://codelearn.io/sharing/lap-trinh-tro-ly-ao-tieng-viet-python
