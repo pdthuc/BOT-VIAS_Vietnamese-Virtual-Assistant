@@ -1,4 +1,4 @@
-# Virtual Assistant: VIAS
+# Vietnamese Virtual Assistant: VIAS
 ## Trợ lý ảo tiếng Việt **VIAS** 
 
 ### DỰ ÁN TRỢ LÝ ẢO TIẾNG VIỆT
