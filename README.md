@@ -1,25 +1,26 @@
-# Vietnamese Virtual Assistant: VIAS
+# VIETNAMESE VIRTUAL ASSISTANT: VIAS
 ## Trợ lý ảo tiếng Việt **VIAS** 
 
 ### DỰ ÁN TRỢ LÝ ẢO TIẾNG VIỆT
 
-**Các chức năng cơ bản:**
+**Các chức năng chính:**
 
-    1. Chào hỏi
-    2. Hiển thị giờ
-    3. Mở website, application
+    1. Trò chuyện bằng tiếng Anh
+    2. Hiển thị ngày, giờ
+    3. Mở website, ứng dụng
     4. Tìm kiếm trên Google
     5. Gửi email
     6. Dự báo thời tiết
-    7. Mở video trên Youtube
+    7. Xem youtube
     8. Thay đổi hình nền máy tính
-    9.  Đọc báo hôm nay
-    10. Tìm và đọc định nghĩa trên Wikipedia
+    9. Đọc báo hôm nay
+    10. Tìm kiếm trên Wikipedia 
     
 #  Chức năng chuyển văn bản thành âm thanh
-  -  Dùng `gTSS (google Text To Speech)` chuyển văn bản thành âm thanh theo tiếng Việt và lưu lại dưới dạng file **sound.mp3**
-  -  Sau đó dùng hàm `playsound.playsound()` để đọc file **sound.mp3** trên máy tính
-  -  Xóa file **sound.mp3** sau khi đọc xong để tránh lỗi trùng lắp file khi đọc nhiều văn bản
+  -  Dùng `gTSS (google Text To Speech)` chuyển văn bản thành âm thanh theo tiếng Việt và lưu lại dưới dạng file **'voice + datatime'.mp3**
+  -  Sau đó dùng hàm `playsound.playsound()` để đọc file **.mp3** trên máy tính
+  -  Xóa file **.mp3** sau khi đọc xong để tránh lỗi trùng lắp file khi đọc nhiều văn bản
+  -  Ngoài ra ta còn có hàm `speak_other_language` để đọc văn bản bằng 1 ngôn ngữ khác với biến `otherLanguage` truyền vào
 
 
 #  Chức năng chuyển âm thanh thành văn bản
@@ -52,7 +53,7 @@
 - Dùng hàm `os.startfile()` để mở các file ứng dụng từ hệ thống
 
 ### Hàm `open_website()`
-- Dùng hàm `re.search()` để tách "domain" sau từ "mở" trong biến **text** và ghép nó với phần tiền tố "https://www." để tạo thành **url** của web.
+- Dùng hàm `re.search()` để tách "domain" sau từ "truy cập" trong biến **text** và ghép nó với phần tiền tố "https://www." để tạo thành **url** của web.
 - Tiếp theo, dùng `webbroser.open(url)` để mở trang web theo url
 - Nếu domain được tìm thấy thì thực hiện mở website bằng `open_website()` và trả về **True**, ngược lại thì không thực hiện gì cả và trả về **False**.
 
@@ -119,6 +120,8 @@
 
 #  Chức năng giao tiếp, chào hỏi với máy (AI Chatbot)
 - Chức năng giao tiếp thông thường giữa người và máy.
+- Sử dụng Pytorch để xây dựng mô hình AI Chatbot để giao tiếp giữa người với máy
+- Vẫn đang là tiếng Anh (chưa thể nâng cấp tiếng Việt)
 
 
 #  Kết hợp tất cả chức năng 
