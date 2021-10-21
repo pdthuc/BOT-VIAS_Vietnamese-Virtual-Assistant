@@ -5,15 +5,15 @@
 
 **Các chức năng chính:**
 
-    1. Trò chuyện bằng tiếng Anh
-    2. Hiển thị ngày, giờ
-    3. Mở website, ứng dụng
-    4. Tìm kiếm trên Google
-    5. Gửi email
+    1. Chatbot tiếng Anh
+    2. Thông báo ngày, giờ
+    3. Mở Website, ứng dụng
+    4. Tìm kiếm từ khóa trên Google
+    5. Gửi email (Chưa hoàn thiện)
     6. Dự báo thời tiết
     7. Xem youtube
     8. Thay đổi hình nền máy tính
-    9. Đọc báo hôm nay
+    9. Đọc báo hôm nay (Chưa hoàn thiện)
     10. Tìm kiếm trên Wikipedia 
     
 #  Chức năng chuyển văn bản thành âm thanh
