@@ -129,6 +129,10 @@
 - `get_text()` để lấy thông tin yêu cầu người dùng, lưu vào **text**, nếu **text** nhận 0 tức máy không nghe được, máy sẽ break
 - Nếu **text** nhận được giá trị, sẽ thực hiện các câu lệnh, khi nghe thấy "dừng lại" hoặc "tạm biệt" thì cũng sẽ dừng.
 
+# Coming soon
+- Đặt lịch hẹn trên Google Calendar
+- Phát nhạc trên Spotify
+
 # Link Video Demo
 - Youtube: https://www.youtube.com/watch?v=kozVHUuiy2M&ab_channel=PhamDinhThuc
 
